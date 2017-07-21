@@ -115,7 +115,7 @@ width: 1000px;
 
 #row2 {
 display: flex;
-align-content: space between;
+align-content: space-between;
 }
 
 .featured img {
