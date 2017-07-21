@@ -2,7 +2,7 @@
 
 .header {
   height: 69px;
-  width: 100%;
+  width: 1200px;
   z-index: 5;
   display: flex;
   font-family: Helvetica;
@@ -14,6 +14,7 @@
   align-items: center;
   border-bottom: 1px solid seashell;
   position: fixed;
+  top: 0px;
   text-decoration: underline;
 }
 
@@ -33,10 +34,23 @@
 .mission {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   position: relative;
+  width: 1200px;
   top: 69px;
   height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #missionBanner {
-  margin-top: 0px;
+background-color: black;
+font-family: Helvetica;
+color: seashell;
+height: 89px;
+width: 1200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: space-around;
+align-items: center;
 }
