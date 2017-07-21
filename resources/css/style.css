@@ -1,0 +1,21 @@
+/* Header */
+
+.header {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.header img {
+  margin-left: 20px;
+}
+
+.header nav {
+  margin-right: 20px;
+}
