@@ -1,0 +1,80 @@
+/* Because The HTML elements were dispolaying white space around them, whcih I did not write into them. */
+
+body {
+ padding: 0;
+ margin: 0;
+}
+
+/* Header */
+
+
+.header {
+  height: 69px;
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+  
+}
+
+.header img {
+  padding: 0px 0px 0px 20px;
+  margin: 0px;
+  height: 50px;
+}
+
+.header nav span{
+  margin: 0px 20px 0px 0px;
+  font-weight: bold;
+}
+
+
+/* Mission */
+
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  background-color: black;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  top: 69px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#missionBanner {
+background-color: black;
+font-family: Helvetica;
+color: seashell;
+height: 89px;
+width: 1200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
